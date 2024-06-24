@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(scanBasePackages = { "com.coordinates", "com.coordinates.persistence" })
 @EnableJpaRepositories("com.coordinates.persistence")
-@ComponentScan("com.coordinates.services")
+@ComponentScan
 @EntityScan("com.coordinates.model")
 public class XyincApplication {
 
