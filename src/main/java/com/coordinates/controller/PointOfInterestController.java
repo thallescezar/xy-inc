@@ -1,4 +1,4 @@
-package com.coordinates.controllers;
+package com.coordinates.controller;
 
 import com.coordinates.model.PointOfInterest;
 import com.coordinates.services.PointOfInterestService;
